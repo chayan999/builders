@@ -19,6 +19,10 @@ ul,ol{
     list-style: none;
 }
 
+.my-container{
+    width:1320px !important;
+    margin: 0 auto;
+}
 
 
 .section-heading{
@@ -112,8 +116,11 @@ ul,ol{
     padding-bottom: 197px;
     color: #ffff;
 }
-.banner-heding-wrapperr{
-    margin-right: 118px;
+.banner-heding-wrapper{
+    margin-left: 135px;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
 }
 .banner-social-wrapper h4{
     writing-mode: vertical-lr;
@@ -143,10 +150,10 @@ ul,ol{
 .banner-social-icon i{
     width:17px;
     height: 32px;
-    margin-bottom: 74px;
+    margin-bottom: 45px;
  }
  .banner-social-icon i:last-child{
-    margin-bottom: none;
+    margin-bottom: 0;
  }
  .banner-heding-wrapper h4{
     font-size: 18px;
@@ -161,6 +168,7 @@ ul,ol{
     color: rgba(255, 255, 255, 1);
     margin-top: 61px;
     margin-bottom: 40px;
+    width: 671px;
  }
  .banner-heding-wrapper p{
       font-size: 22px;
@@ -168,8 +176,33 @@ ul,ol{
     line-height: 33px;
     color: rgba(255, 255, 255, 1);
     width: 706px;
-
+    margin-bottom: 40px;
  }
+
+ .location ,.status{
+    width: 338px;
+    border-radius: 8px;
+    background-color: white;
+ }
+ .banner-serch{
+    column-gap: 23px;
+    margin-bottom: 40px;
+ }
+ .banner-serch select{
+    border: none;
+    outline: none;
+    width:90%;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 18px 30px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.4px;
+    color:rgba(41, 49, 61, 0.5)
+ }
+
+
+    
 /* ======== BANNER SECTION END   ====== */
 /* ======== NAV SECTION START ====== */
 /* ======== NAV SECTION END   ====== */
