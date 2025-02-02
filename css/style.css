@@ -27,9 +27,17 @@ ul,ol{
 
 .section-heading{
     font-size: 45px;
-    line-height: 51.75;
+    line-height: 51.75px;
     font-weight: 700;
     color: rgba(41, 49, 61, 1);
+    width: 700px;
+}
+
+.section-min-heading{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20.7px;
+    color: rgba(5, 160, 129, 1);
 }
 .my-btn{
     padding: 15px 18px;
@@ -200,12 +208,80 @@ ul,ol{
     line-height: 18.4px;
     color:rgba(41, 49, 61, 0.5)
  }
-
-
     
 /* ======== BANNER SECTION END   ====== */
-/* ======== NAV SECTION START ====== */
-/* ======== NAV SECTION END   ====== */
+
+
+/* ======== ABOUT SECTION START ====== */
+#about-section{
+    padding: 180px 0;
+}
+.about-left-heading {
+    margin-bottom: 40px;
+}
+.about-left-heading h2{
+    font-size: 45px;
+    width: 700px;
+    line-height: 51px;
+    font-weight: 700;
+    color: #29313D;
+    margin: 40px 0;
+}
+
+.about-left-heading h4{
+     font-size: 18px;
+    font-weight: 700;
+    line-height: 20.7px;
+    color: rgba(5, 160, 129, 1);
+    width: 81%;
+}
+.about-left-info-wrapper{
+    gap: 45px;
+}
+.about-left-info-img{
+    width: 400px;
+    height: 500px;
+   
+}
+.about-left-info-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.about-left-info-decs p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(41, 49, 61, 0.5);
+    width: 290px;
+}
+
+
+.about-left-info-decs button{
+    border: 1px solid rgba(5, 160, 129, 1);
+    padding: 12PX 24PX;
+    color: rgba(5, 160, 129, 1);
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 36px;
+    border-radius: 4px;
+    margin-top: 160px;
+}
+
+.about-right-img{
+    width: 489px;
+    height: 586px;
+}
+.about-right-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+/* ======== ABOUT SECTION END   ====== */
 /* ======== NAV SECTION START ====== */
 /* ======== NAV SECTION END   ====== */
 /* ======== NAV SECTION START ====== */
