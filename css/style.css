@@ -233,7 +233,7 @@ ul,ol{
     font-weight: 700;
     line-height: 20.7px;
     color: rgba(5, 160, 129, 1);
-    width: 81%;
+   padding-left: 6%;
 }
 .about-left-info-wrapper{
     gap: 45px;
@@ -267,11 +267,11 @@ ul,ol{
     font-weight: bold;
     line-height: 36px;
     border-radius: 4px;
-    margin-top: 160px;
+    margin-top: 140px;
 }
 
 .about-right-img{
-    width: 489px;
+    /* width: 489px; */
     height: 586px;
 }
 .about-right-img img{
@@ -365,8 +365,8 @@ ul,ol{
    }
 
    .offer-img{
-        width:524px;
-        height: 478px;
+        /* width:524px;
+        height: 478px; */
         align-self: flex-end;
    }
    .offer-img img{
@@ -377,9 +377,57 @@ ul,ol{
    }
 /* ======== OFFER SECTION END   ====== */
 
-/* ======== NAV SECTION START ====== */
-/* ======== NAV SECTION END   ====== */
-/* ======== NAV SECTION START ====== */
-/* ======== NAV SECTION END   ====== */
+/* ======== VIDEO SECTION START ====== */
+   #video-section{
+    padding-bottom: 180px;
+   }
+   /* .video-img-wrapper {
+    column-gap: 64px;
+   } */
+ 
+   /* .video-img{
+        width: 400px;
+        height: 400px;
+   } */
+
+   .video-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 8px;
+   }
+ 
+   .video-img-info{
+    margin-left: 40px;
+    background-image: url("../img/video-bg-img.png");
+    /* background-color: #a8a1a1bd; */
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+   }
+   .video-img-info h2{
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 45px;
+    color: rgba(0, 0, 0, 1);
+    width: 519px;
+   }
+   .video-img-info h2 span{
+        color: rgba(5, 160, 129, 1) ;
+   }
+
+   .video-img-info p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgba(41, 49, 61, 0.5);
+   }
+/* ======== VIDEO SECTION END   ====== */
+
+/* ======== RESIDENTIALS SECTION START ====== */
+/* ======== RESIDENTIALS SECTION END   ====== */
+
+
 /* ======== NAV SECTION START ====== */
 /* ======== NAV SECTION END   ====== */
