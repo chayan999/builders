@@ -583,8 +583,24 @@ ul,ol{
 
 /* ======== RESIDENTIALS SECTION END   ====== */
 
-/* ======== NAV SECTION START ====== */
-/* ======== NAV SECTION END   ====== */
+/* ======== REVIEW SECTION START ====== */
+#review{
+    padding-bottom:180px;
+}
+.review-wrapper{
+    justify-content: space-between !important;
+}
+#review .section-heading{
+    width: 407px;
+    padding-top: 40px;
+    padding-bottom: 107px;
+}
+.review-img{
+    width: 729px;
+    height: 762px;
+    justify-self: end;
+}
+/* ======== REVIEW SECTION END   ====== */
 
 /* ======== NAV SECTION START ====== */
 /* ======== NAV SECTION END   ====== */
