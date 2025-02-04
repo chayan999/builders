@@ -500,5 +500,94 @@ ul,ol{
 /* ======== RESIDENTIALS SECTION END   ====== */
 
 
+/* ======== RESIDENTIALS SECTION START ====== */
+#testimonials{
+    margin-bottom: 180px;
+}
+.testimonial-wrapper{
+    position: relative;
+}
+.testimonial-info{
+    background-color: rgba(245, 245, 245, 1);
+    padding-left: 82px;
+    padding-top: 80px;
+    width: 90%;
+}
+.testimonials-headding h2{
+    padding: 40px 0;
+    width:366px
+}
+.testimonials-headding {
+    width: 684px;
+}
+
+.testimonials-headding p{
+    color:rgba(41, 49, 61, 0.5);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    padding-bottom: 50px;
+   
+}
+
+.testimonial-profile{
+    padding: 18px 0;
+    gap: 22px;
+    margin-bottom: 58px;
+}
+.testimonial-profile img{
+    width: 81px;
+    height: 81px;
+    border-radius: 50%;
+}
+.testimonial-profile h4{
+    
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20.7px;
+     color: rgba(0, 0, 0, 1);
+}
+
+.testimonial-profile h5{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.1px;
+    color:rgba(41, 49, 61, 0.5);
+}
+
+.feature-data{
+    gap: 92px;
+}
+.feature-data h5{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 57.5px;
+    color: rgb(0, 0, 0,1);
+    margin-bottom: 0 !important;
+}
+
+.feature-data span{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.1px;
+    color: rgb(0, 0, 0,1);
+}
+.testimonal-right-img img{
+    position: absolute;
+    width:450px;
+    height: 550px;
+    right:0;
+    top: -50px;
+}
+
+
+/* ======== RESIDENTIALS SECTION END   ====== */
+
+/* ======== NAV SECTION START ====== */
+/* ======== NAV SECTION END   ====== */
+
+/* ======== NAV SECTION START ====== */
+/* ======== NAV SECTION END   ====== */
+
 /* ======== NAV SECTION START ====== */
 /* ======== NAV SECTION END   ====== */
