@@ -457,7 +457,7 @@ ul,ol{
 
 /* ======== RESIDENTIALS SECTION START ====== */
 #residentials-section{
-    margin-bottom: 180px;
+    padding-bottom: 180px;
 }
 #residentials-section .section-heading h2{
     width: 500px;
@@ -500,9 +500,9 @@ ul,ol{
 /* ======== RESIDENTIALS SECTION END   ====== */
 
 
-/* ======== RESIDENTIALS SECTION START ====== */
+/* ======== TESTIMONIALS SECTION START ====== */
 #testimonials{
-    margin-bottom: 180px;
+    margin-bottom: 140px;
 }
 .testimonial-wrapper{
     position: relative;
@@ -527,7 +527,7 @@ ul,ol{
     font-weight: 400;
     line-height: 33px;
     padding-bottom: 50px;
-   
+    width: 75%;
 }
 
 .testimonial-profile{
@@ -585,7 +585,7 @@ ul,ol{
 
 /* ======== REVIEW SECTION START ====== */
 #review{
-    padding-bottom:180px;
+    padding-bottom:140px;
 }
 .review-wrapper{
     justify-content: space-between !important;
@@ -596,14 +596,102 @@ ul,ol{
     padding-bottom: 107px;
 }
 .review-img{
-    width: 729px;
-    height: 762px;
+    width: 650px;
+    height: 600px;
     justify-self: end;
 }
 /* ======== REVIEW SECTION END   ====== */
 
-/* ======== NAV SECTION START ====== */
-/* ======== NAV SECTION END   ====== */
+/* ======== FOOTER SECTION START ====== */
+#footer{
+    padding-top: 52px;
+    padding-bottom: 21px;
+    background: rgba(5, 160, 129, 1);
+    position: relative;
+}
+.footer-logo{
+    margin-bottom: 58px;
+}
 
-/* ======== NAV SECTION START ====== */
-/* ======== NAV SECTION END   ====== */
+.footer-left::after{
+    content: "";
+    position:absolute;
+    width:1.5px;
+    height:193px;
+    top: 50%;
+    right: 54%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 1);
+}
+
+
+.footer-left input{
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.4px;
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 22px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+    width: 368px;
+    border-radius: 1.5px;
+}
+.footer-left input::placeholder{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.4px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-left p{
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.1px;
+    color: rgba(255, 255, 255, 1);
+    width: 413px;
+}
+.footer-social-icon{
+    display: flex;
+    gap: 42px;
+    color: rgba(255, 255, 255, 1);
+    padding-top: 37px;
+}
+
+.footer-social-icon i:first-child{
+    width:12px;
+    height:22px;
+}
+.footer-social-icon i:nth-child(2){
+    width:26px;
+    height:22px;
+}
+.footer-social-icon i:nth-child(2){
+    width:22px;
+    height:22px;
+}
+
+#footer address p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20.7px;
+    color: rgba(255, 255, 255, 1);
+}
+.coppy-right{
+    padding-top: 64px;
+}
+.coppy-right span{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.4px;
+    color: rgba(255, 255, 255, 1);
+}
+
+/* ======== FOOTER SECTION END   ====== */
+
+/* ***** RESPONSIVE SECTION ******** */
+
+
+

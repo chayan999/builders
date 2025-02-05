@@ -1,0 +1,16 @@
+
+/* ====== RESPONSIVE FOR SMALL DEVICE ======= */
+
+@media (max-width:575.99px) {
+    
+    .nav-link::after{
+        display: none;
+    }
+    .nav-link::before{
+        display: none;
+    }
+    
+    .nav-serch-section{
+        margin: 0 auto;
+    }
+}
