@@ -1,0 +1,211 @@
+
+/* ====== RESPONSIVE FOR SMALL DEVICE ======= */
+
+@media (max-width:575.99px) {
+   /* ======== NAV SECTION START ====== */ 
+    .nav-link::after{
+        display: none;
+    }
+    .nav-link::before{
+        display: none;
+    }
+    
+    .nav-serch-section{
+        margin: 0 auto;
+    }
+/* ======== NAV SECTION END   ====== */
+
+/* ======== BANNER SECTION START ====== */
+    #banner-section {
+        padding-bottom: 100px;      
+    }
+    .banner-social-wrapper{
+        display: none !important;
+    }
+
+    .banner-heding-wrapper {
+        margin-left: 0;
+       
+    }
+
+    .banner-heding-wrapper h1 {
+        font-size: 60px;
+        line-height: 85.39px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        margin-left: 2%;
+        width:100%;
+    }
+
+    .banner-heding-wrapper p {
+        font-size: 18px;
+        line-height: 30px;
+        width: 100%;
+        margin-bottom: 30px;
+        margin-left: 2%;
+    }
+    .banner-heding-wrapper h4 {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 15.7px;
+        margin-left: 2%
+    }
+    .banner-serch{
+      padding: 0 2%;
+    }
+
+    .location,.status{
+        width: 100%;
+    }
+
+    .banner-btn{
+        display: flex;
+        justify-content: center;
+    }
+    .banner-btn .my-btn{
+        width: 50%;
+    }
+
+    /* ======== BANNER SECTION END   ====== */
+
+    /* ======== ABOUT SECTION START ====== */
+
+    #about-section{
+        padding: 40px 0;
+    }
+
+    .about-left-heading {
+        margin-bottom: 0;
+    }
+    .about-left-heading h4 {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19.7px;
+        padding-left: 0%;
+    }
+    .about-left-heading h2{
+        font-size: 30px;
+        width: 95%;
+        line-height: 40px;
+        margin: 15px 0;
+    }
+    .about-right-img{
+        display: none;
+    }
+
+    .about-left-info-decs p{
+        width: 100%;
+        margin-top: 10%;
+    }
+
+    .about-left-info-img{
+        width: 100%;
+        height: 100%;      
+    }
+
+    .about-left-info-decs button {
+        padding: 12PX 24PX;
+        margin-top: 25px;
+    }
+
+    /* ======== ABOUT SECTION END   ====== */
+
+/* ======== OFFER SECTION START ====== */
+    #offer-section{
+        padding-top: 40px;
+        padding-bottom: 100px;
+    }
+
+    .offer-info-wrapper{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .offer-headding h2 {
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        line-height: 45.75px;
+        font-size: 35px;
+    }
+    .offer-nav {
+        margin-bottom: 35px;
+    }
+    .offer-nav ul {
+        column-gap: 40px;
+    }
+    .offer-nav ul li a {
+        font-size: 14px;
+        line-height: 16.4px;
+        letter-spacing: 0px;
+    }
+    .offer-info-wrapper p {
+        margin-bottom: 40px;
+        font-size: 18px;
+        line-height: 30.5px;
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .offer-info-wrapper button {
+        padding: 16px 16px;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 12px;
+    }
+
+    .video-img-wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+
+/* ======== OFFER SECTION END   ====== */
+
+/* ======== VIDEO SECTION START ====== */
+#video-section{
+    padding-bottom: 100px;
+   }
+    .video-overlay {
+        width: 92%;   
+    }
+
+    .video-img-info h2 {
+        font-size: 25px;
+        line-height: 40px;
+        width: 100%;
+    }
+
+    .video-img-info{
+        padding-left: 15px;
+        margin-top: 30px;
+    }
+    .video-img-main{
+        width: 80% !important;
+    }
+
+    /* ======== VIDEO SECTION END   ====== */
+
+/* ======== RESIDENTIALS SECTION START ====== */
+    #residentials-section{
+        padding-bottom: 100px;
+    }
+
+    .section-min-heading {
+        font-size: 16px;
+        line-height: 11.7px;
+    }
+
+    #residentials-section .section-heading h2 {
+        margin: 20px 0;
+        font-size: 25px;
+        line-height: 40px;
+    }
+
+    .resdential-img-wrapper{
+        width: 100%;
+    }
+
+   
+
+}
+
