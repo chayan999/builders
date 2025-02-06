@@ -2,11 +2,9 @@
 /* ====== RESPONSIVE FOR SMALL DEVICE ======= */
 
 @media (max-width:575.99px) {
-<<<<<<< HEAD
-   /* ======== NAV SECTION START ====== */ 
-=======
+
     
->>>>>>> 35a6c48f22b6a937c108bcd7375423067b0774d1
+
     .nav-link::after{
         display: none;
     }
@@ -17,7 +15,7 @@
     .nav-serch-section{
         margin: 0 auto;
     }
-<<<<<<< HEAD
+
 /* ======== NAV SECTION END   ====== */
 
 /* ======== BANNER SECTION START ====== */
@@ -61,6 +59,10 @@
 
     .location,.status{
         width: 100%;
+    }
+
+    .location{
+        margin-bottom: 15px;
     }
 
     .banner-btn{
@@ -214,6 +216,6 @@
 
 }
 
-=======
-}
->>>>>>> 35a6c48f22b6a937c108bcd7375423067b0774d1
+
+
+
